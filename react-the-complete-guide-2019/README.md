@@ -2,7 +2,7 @@
 
 React the complete guide 2019 by Maximilian Schwarzmuller.
 
-## React README
+## React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
