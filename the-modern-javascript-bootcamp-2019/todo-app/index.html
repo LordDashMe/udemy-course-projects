@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todo App</title>
+    </head>
+    <body>
+        <h1>Todos App</h1>
+        <!-- 
+            Challenge 1
+            
+            <p>Clean the kitchen.</p>
+            <p>Book flights.</p>
+            <p>Work.</p>
+            <p>Udemy!</p> 
+        -->
+        <label>
+            Search: <input type="text" id="search" placeholder="Search for todo.">
+        </label>
+        <label>
+            Hide Completed: <input type="checkbox" id="hideCompleted">
+        </label>
+        <button id="deleteAll" >Delete All</button>
+
+        <select id="otherFilters">
+            <option vaue="">--Select--</option>
+            <option value="alpha-order">Filter by alphabetical order.</option>
+            <option value="date">Filter by date.</option>
+            <option value="last-edited-date">Filter by last edited date.</option>
+        </select>
+
+        <br/>
+        <br/>
+        
+        <div id="todoSummary"></div>
+        <div id="todoContainer"></div>
+
+        <br/>
+
+        <form id="todoForm">
+            <input type="text" name="todoText" placeholder="Enter something to do.">
+            <button id="addTodo">Add Todo</button>
+        </form>
+
+        <script src="todo-functions.js"></script>
+        <script src="todo-app.js"></script>
+    </body>
+</html>
