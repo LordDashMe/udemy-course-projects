@@ -1,8 +1,7 @@
 {
-  "name": "learning-react",
+  "name": "react-the-complete-guide-2019",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lorddashme.github.io/learning-react/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "radium": "^0.25.2",
